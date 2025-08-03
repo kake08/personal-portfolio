@@ -9,7 +9,7 @@ const project = defineCollection({
     image: z.string(),
     slug: z.string(),
     liveSiteURL: z.string(),
-    gitHubURL: z.string()
+    githubURL: z.string()
   })
 });
 

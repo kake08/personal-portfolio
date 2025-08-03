@@ -2,25 +2,25 @@
     {
         "title": "Hotel Booking Management System",
         "slug": "project-1",
-        "description": "A fast, scalable admin panel for managing products, orders, and sales analytics. Built with React, Next.js, Firebase, and TailwindCSS.",
+        "description": "Built a fully functional hotel reservation system with an interactive GUI for customers and staff to manage bookings, check-ins, and availability. Integrated a relational database using Apache Derby to store bookings and customer information, with SQL queries to support core operations.",
         "image": "/images/projects/manage_bookings.jpg",
-        "githubURL": "https://github.com/kake08",
+        "githubURL": "https://github.com/kake08/hotel_booking_management_system",
         "liveSiteURL": "https://github.com/kake08/hotel_booking_management_system"
     },
     {
         "title": "Medication Lookup Tool",
         "slug": "project-2",
-        "description": "A redesign of ABC’s landing page, improving UI/UX, conversion rates, and performance. Built with Next.js, TailwindCSS, and Framer Motion.",
+        "description": "Built a tool enabling users to search for medications by name and view matching pill images with the goal of assisting pharmacists in identifying oral medications and improving patient safety. Served RxImage data from a locally hosted Express API as the public API was deprecated.",
         "image": "/images/projects/medication_search.jpg",
         "githubURL": "https://github.com/kake08/med-ix",
         "liveSiteURL": "https://github.com/kake08/med-ix"
     },
     {
-        "title": "DevTools Chrome Extension",
+        "title": "Personal Portfolio",
         "slug": "project-3",
-        "description": "A Chrome DevTools extension for monitoring API requests in real-time. It provides live request logging and response analysis for developers.",
+        "description": "Developed a personal portfolio website using Astro to show my projects. Improved my frontend skills and understanding of performance-optimized static site generation. ",
         "image": "/images/projects/project-3.png",
-        "githubURL": "https://github.com/jamesqquick",
-        "liveSiteURL": "https://jamesqquick.com"
+        "githubURL": "https://github.com/kake08/personal-portfolio",
+        "liveSiteURL": "https://github.com/kake08/personal-portfolio"
     }
 ]
