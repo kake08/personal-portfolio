@@ -1,0 +1,111 @@
+
+---
+import ButtonLink from "./ButtonLink.astro"
+import Section from "./Section.astro";
+---
+
+
+<Section>
+    <header id="header">
+        <div class="content">
+            <h1>
+                Hi there! I'm Kate
+                    <span class="accent">An aspiring</span> Tech Professional
+            </h1>
+            <p class="description">
+                I love creating things with code — from responsive web apps to data-driven insights. 
+                Whether I’m working with React, Node.js, or exploring datasets in Python, I’m always chasing practical solutions and elegant design. 
+                I’m currently growing my skills in both software development and data analytics. Passionate about 
+                building scalable applications and eager to learn from and contribute to innovative development teams.
+            </p>
+            <div class="button-container">
+                <ButtonLink href="/projects" isDownload={false} variant="secondary" text="View Projects" />
+                <ButtonLink href="/resume.pdf" isDownload={true} variant="primary" text="Download CV"/>
+            </div>
+        </div>
+        <img src="/images/me.jpg" alt="Kate's (me) profile picture">
+    </header>
+  </Section>
+
+<style>
+
+
+
+    img {
+        border-radius: 100px;
+    }
+
+
+
+        /* //max width - 1100px;
+    //center the content using margin auto
+    //60px horizontal padding
+
+    //Bonus - less horizontal padding on smaller screens */
+
+      #header {
+    display: grid;
+    grid-template-columns: 540px 1fr;
+    justify-items: center;
+    gap: 80px;
+    align-items: center;
+
+    h1 {
+      font-size: 44px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+
+      .accent {
+        color: var(--primary);
+      }
+    }
+
+    .button-container {
+        display: flex;
+        gap: 25px;  
+    }
+
+    .description {
+      line-height: 28px;
+      color: var(--dark);
+      margin-bottom: 30px;
+    }
+
+    @media (max-width: 1000px) {
+      & {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 40px;
+
+        img {
+          grid-row: 1;
+        }
+      }
+    }
+
+    @media (max-width: 600px) {
+        .button-container{
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        #header {
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        h1 {
+            font-size: 32px;
+            word-wrap: break-word;
+        }
+    }
+  }
+</style>
